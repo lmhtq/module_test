@@ -1,6 +1,6 @@
 obj-m := simple_module.o
 
-KDIR := /home/bluecat/DATA/courses/codes/linux-3.15.10/
+KDIR := /home/bluecat/DATA/courses/codes/linux-3.15.5/
 
 #PWD := $(shell pwd)
 
