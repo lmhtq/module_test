@@ -1,8 +1,8 @@
-obj-m := simplest_module.o
+obj-m := simple_module.o
 
-KDIR := /lib/modules/$(sh uname -r)/build
+KDIR := /home/bluecat/DATA/courses/codes/linux-3.15.10/
 
-PWD := $(sh pwd)
+#PWD := $(shell pwd)
 
 all:
 	make -C $(KDIR) M=$(PWD) modules
